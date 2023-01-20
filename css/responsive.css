@@ -1,0 +1,298 @@
+@media (max-width:1199px) {
+    .faq-thumb {
+        height: 600px;
+    }
+    .faqTitle:before{
+        left: -15px;
+    }
+    .faqTitle{
+        padding-left: 70px;
+        font-size: 34px;
+    }
+    .faq-content ul li{
+        font-size: 22px;
+    }
+    .faq-sec .title-head .secTitle{
+        font-size: 42px;
+    }
+    .eco-content > strong {
+        font-size: 24px;
+        margin: 0 0 18px;
+        line-height: 28px;
+    }
+    .eco-content > p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .landContent > p{
+        font-size: 18px;
+    }
+    .landContent > span{
+        margin: 0 0 3rem;
+    }
+    .landContent > h1{
+        font-size: 30px;
+    }
+    .landContent {
+        max-width: 90%;
+    }
+    .landThumb{
+        height: 650px;
+    }
+    .about-sec p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .about-sec .h1{
+        font-size: 30px;
+    }
+    .quote-sec{
+        padding: 4em 0;
+    }
+    .quote-sec p {
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: normal;
+        max-width: 614px;
+    }
+    .modal-sec ul li .h1{
+        font-size: 30px;
+    }
+    .modal-sec ul li{
+        max-width: 270px;
+    }
+    .modal-sec ul li p{
+        font-size: 20px;
+    }
+    .modal-sec ul li:before{
+        left: -82px;
+        width: 50px;
+        height: 16px;
+    }
+    .graph-sec .secTitle{
+        font-size: 34px;
+    }
+    .foot-text {
+        max-width: 85%;
+    }
+    footer .btn{
+        height: auto;
+    }
+    .foot-text {
+        max-width: 95%;
+    }
+}
+
+@media (max-width:1024px) {
+    .links-sec .link-row > .link-card{
+        overflow: hidden;
+    }
+    .links-sec .link-row > .link-card > strong{
+        font-size: 30px;
+    }
+
+    .links-sec .link-row:first-of-type > .link-card:last-of-type {
+        width: 60%;
+    }
+    .links-sec .link-row:first-of-type > .link-card:first-of-type {
+        width: 40%;
+    }
+    .modal-sec ul li {
+        max-width: 28%;
+    }
+    .modal-sec ul li:before{
+        left: -52px;
+        width: 36px;
+    }
+}
+@media (max-width:767px) {
+    a.logoOverlay{
+        display: none;
+    }
+    header{
+        background: #f4f6f4;
+    }
+    header:after{
+        display: none;
+    }
+    .ico-sec .secTitle{
+        font-size: 20px;
+    }
+    .ico-sec figure{
+        padding: 5px 0px 10px;
+    }
+    .ico-sec figure img {
+        margin: 0 0 10px;
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+    section.interest-sec{
+        padding-top:4em;
+    }
+    .interest-sec .title-head{
+        margin:0 0 -100px !important
+    }
+    .interest-sec .title-head .secTitle{
+        font-size: 28px;
+    }
+    .foot-info {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .guestBanner:after{
+        display: none;
+
+    }
+    .guestBanner:before{
+        filter: inherit;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.80);
+        z-index: 9;
+    }
+    .interest-card a strong {display: block;}
+
+    .foot-col img{
+        object-fit: cover;
+        height: 300px;
+        width:100%
+    }
+    .faq-points .points-content ul{
+        max-width: 80%;
+    }
+    .faq-points .points-content h3 {
+        margin-bottom: 50px;
+    }
+    .faq-thumb {
+        height: 400px;
+    }
+    .faqTitle:before {
+        left: 0;
+    }
+    .faqTitle{
+        padding-left: 72px;
+    }
+    .eco-sec .container > .row:nth-child(2n) .col-md-6:first-of-type{
+        order: 2;
+    }
+    .eco-sec .container > .row{
+        margin:0 0 30px;
+
+    }
+    .eco-sec .container > .row .col-md-6{
+        border:0 !important ;
+        text-align:left !important
+    }
+
+    .eco-sec .secTitle{
+        font-size: 26px;
+    }
+    .land-banner > .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .land-banner > .d-flex > div {
+        width: 100%;
+    }
+    .ico-sec {
+        padding: 0em 0 6em;
+    }
+    .ico-sec figure figcaption{
+        font-size: 12px;
+        line-height: normal;
+    }
+    .exp-content > p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .exp-content > h2{
+        margin: 0 0 10px;
+    }
+    .exp-content {
+        padding: 50px 0 50px;
+    }
+    .exp-sec {
+        padding: 5em 0;
+    }
+    .banner-content > p{
+        font-size: 20px;
+    }
+    .guestBanner:before{
+        width: 100%;
+    }
+    .guestBanner{
+        height: 600px;
+    }
+    .modal-sec ul li {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .modal-sec ul {
+        flex-wrap: wrap;
+    }
+
+    .modal-sec ul li:before {
+        display: block;
+        top: -45px;
+        transform: translate(-50% , 0%) rotate(90deg) !important;
+        left: 50%;
+    }
+
+    .interest-row {
+        flex-wrap: wrap;
+    }
+
+    .interest-card {
+        width: 100%;
+        height: 500px;
+    }
+
+    .interest-card a {
+        margin: 0;
+    }
+
+    .links-sec .link-row > .link-card {
+        width: 100% !important;
+    }
+
+    .links-sec .link-row {
+        flex-wrap: wrap;
+    }
+
+    .links-sec .link-row > .link-card img {
+        height: 600px;
+        width: 100%;
+    }
+
+    .overlay-text {
+        font-size: 16px;
+    }
+
+    .foot-row {
+        flex-wrap: wrap;
+    }
+
+    .foot-col.w-50 {
+        width: 100% !important;
+    }
+
+    .foot-text {
+        margin: 0 0 30px;
+    }
+    .exp-sec .order-3 {
+        order: inherit !important;
+    }
+    .exp-sec .title-head .secTitle{
+        font-size: 32px;
+    }
+    .landContent {
+        max-width: 100%;
+        padding: 50px 30px;
+    }
+    .modal-sec ul li:nth-child(3), .modal-sec ul li:nth-child(2) {
+        margin: 3.5em 0 20px;
+    }
+}
